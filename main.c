@@ -34,9 +34,7 @@ int main(void) {
     char enErkenCikanSicil[50] = "";
     int enErkenErkenCikmaSuresi = 0; // Kaç dakika erken çıktı?
     int enErkenCikanDakika = mesaiBitis; // Başlangıçta 17:00 kabul ediyoruz
-
-    // INT_MAX INT_MIN
-    // #include <limits.h>
+    
 
     fgun = fopen("gunluk.dat", "r");
 
